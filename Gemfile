@@ -24,6 +24,6 @@ end
 
 gem 'jquery-rails'
 gem 'protected_attributes'
-gem 'paperclip', '~> 3.0'
+gem 'paperclip', '~> 4.3'
 gem 'nokogiri'
 gem 'xpath'

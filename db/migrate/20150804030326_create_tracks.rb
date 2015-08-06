@@ -5,6 +5,6 @@ class CreateTracks < ActiveRecord::Migration
 
       t.timestamps null: false
     end
-    add_attachment :tracks, :gpx
+    add_attachment :tracks, :gpx, :path => "ParseUploadXML/public/paperclip/:filename"
   end
 end
